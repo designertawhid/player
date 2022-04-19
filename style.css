@@ -177,7 +177,7 @@ body{
 
 .music-list{
   position: absolute;
-  background: var(--white);
+  background: rgb(88, 101, 242);
   width: 100%;
   left: 0;
   bottom: -55%;
