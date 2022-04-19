@@ -10,9 +10,9 @@
   margin: 0;
 }
 :root{
-  --pink: #ff74a4;
-  --violet: #9f6ea3;
-  --lightblack: #515C6F;
+  --pink: #5865f2;
+  --violet: #ec00ff;
+  --lightblack: #FFF;
   --white: #ffffff;
   --darkwhite: #cecaca;
   --pinkshadow: #ffcbdd;
@@ -31,8 +31,8 @@ body{
   overflow: hidden;
   position: relative;
   border-radius: 15px;
-  background: var(--white);
-  box-shadow: 0px 6px 15px var(--lightbshadow);
+  background: #1d1e1f;
+  box-shadow: 0px 6px 15px rgb(88, 101, 242.15);
 }
 .wrapper i{
   cursor: pointer;
