@@ -10,9 +10,9 @@
   margin: 0;
 }
 :root{
-  --pink: #ff74a4;
-  --violet: #9f6ea3;
-  --lightblack: #515C6F;
+  --pink: #5865f2;
+  --violet: #ec00ff;
+  --lightblack: #FFF;
   --white: #ffffff;
   --darkwhite: #cecaca;
   --pinkshadow: #ffcbdd;
@@ -23,16 +23,16 @@ body{
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background: linear-gradient(var(--pink) 0%, var(--violet) 100%);
+  background: linear-gradient(#1d1e1f 0%, #1d1e1f 100%);
 }
 .wrapper{
   width: 380px;
   padding: 25px 30px;
   overflow: hidden;
   position: relative;
-  border-radius: 15px;
-  background: var(--white);
-  box-shadow: 0px 6px 15px var(--lightbshadow);
+  border-radius: 50px;
+  background: #1d1e1f;
+  box-shadow: 0px 6px 15px rgb(88, 101, 242.15);
 }
 .wrapper i{
   cursor: pointer;
@@ -177,7 +177,7 @@ body{
 
 .music-list{
   position: absolute;
-  background: var(--white);
+  background: rgb(88, 101, 242);
   width: 100%;
   left: 0;
   bottom: -55%;
